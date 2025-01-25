@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "COM-09032")(type "KiCad")(uri "${KIPRJMOD}/libs/sym/COM-09032.kicad_sym")(options "")(descr "Joystick"))
+  (lib (name "LM2596")(type "KiCad")(uri "${KIPRJMOD}/libs/sym/LM2596.kicad_sym")(options "")(descr ""))
+)
