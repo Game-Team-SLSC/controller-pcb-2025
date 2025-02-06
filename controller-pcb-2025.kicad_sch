@@ -7373,12 +7373,6 @@
 		(uuid "d547837d-56b7-4c42-9150-eede338e3098")
 	)
 	(junction
-		(at 231.14 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e36c0589-750c-4237-9d97-50256c3505ce")
-	)
-	(junction
 		(at 243.84 31.75)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -9252,16 +9246,6 @@
 		)
 		(uuid "af8b646f-6937-46de-ae52-0b729131ff82")
 	)
-	(wire
-		(pts
-			(xy 231.14 54.61) (xy 229.87 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b3021ad1-0920-4900-8514-f1eff1125e08")
-	)
 	(bus
 		(pts
 			(xy 203.2 78.74) (xy 203.2 81.28)
@@ -9361,16 +9345,6 @@
 			(type default)
 		)
 		(uuid "c00207b6-f8f3-4e13-aab3-738eda3c441c")
-	)
-	(wire
-		(pts
-			(xy 232.41 54.61) (xy 231.14 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0410d01-dde0-4df9-9222-9734f638f558")
 	)
 	(wire
 		(pts
@@ -11130,7 +11104,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_PWR"
+		(property "Value" "GND"
 			(at 87.63 33.0199 90)
 			(effects
 				(font
@@ -11309,7 +11283,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_D4.0mm_P1.50mm"
 			(at 232.41 151.13 0)
 			(effects
 				(font
@@ -11617,72 +11591,6 @@
 			(project ""
 				(path "/54f3370b-b4f0-41d0-bb98-fc88779db4d9"
 					(reference "#FLG03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 231.14 54.61 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "331aa526-4173-4ccd-b1de-d61226054506")
-		(property "Reference" "#FLG04"
-			(at 231.14 56.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 231.14 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 231.14 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9f8019ff-61de-48f7-8957-b5c4e035fbcd")
-		)
-		(instances
-			(project ""
-				(path "/54f3370b-b4f0-41d0-bb98-fc88779db4d9"
-					(reference "#FLG04")
 					(unit 1)
 				)
 			)
@@ -12298,7 +12206,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 232.41 54.61 90)
+		(at 229.87 54.61 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12307,7 +12215,7 @@
 		(fields_autoplaced yes)
 		(uuid "4d231a8d-7c8d-4519-a944-f77799d46387")
 		(property "Reference" "#PWR022"
-			(at 238.76 54.61 0)
+			(at 236.22 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12315,8 +12223,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "GND_PWR"
-			(at 236.22 54.6099 90)
+		(property "Value" "GND"
+			(at 233.68 54.6099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12325,7 +12233,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 232.41 54.61 0)
+			(at 229.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12334,7 +12242,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 232.41 54.61 0)
+			(at 229.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12343,7 +12251,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 232.41 54.61 0)
+			(at 229.87 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13008,7 +12916,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 134.62 44.45 90)
 			(effects
 				(font
@@ -15899,7 +15807,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_THT:CP_Radial_Tantal_D4.5mm_P2.50mm"
 			(at 181.61 148.59 0)
 			(effects
 				(font
@@ -16804,7 +16712,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P2.54mm_Vertical_AnodeUp"
 			(at 134.62 24.13 90)
 			(effects
 				(font
